@@ -23,7 +23,6 @@
       </term>
       <term name="editortranslator" form="verb">edited and translated by</term>
       <term name="edition" form="short">edn.</term>
-      <term name="et-al">et al.</term>
     </terms>
   </locale>
   <macro name="editor">
@@ -194,7 +193,7 @@
         <text variable="year-suffix"/>
       </if>
       <else>
-        <text term="n.d."/>
+        <text term="no date"/>
         <text variable="year-suffix" prefix=" "/>
       </else>
     </choose>
