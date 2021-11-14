@@ -194,7 +194,7 @@
         <text variable="year-suffix"/>
       </if>
       <else>
-        <text term="n.d."/>
+        <text term="no date"/>
         <text variable="year-suffix" prefix=" "/>
       </else>
     </choose>
