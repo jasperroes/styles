@@ -223,7 +223,6 @@
     <choose>
       <if type="chapter paper-conference article-journal article article-magazine article-newspaper book review review-book report" match="any">
         <group delimiter=" ">
-          <label variable="page"/>
           <text variable="page"/>
         </group>
       </if>
